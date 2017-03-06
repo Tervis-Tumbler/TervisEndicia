@@ -18,7 +18,7 @@
     <bResetAllOptServices>false</bResetAllOptServices>
     <bInsuranceThreshold>false</bInsuranceThreshold>
     <bUseInsurance>false</bUseInsurance>
-    <InsuranceType>Endicia</InsuranceType>
+    <InsuranceType>USPS</InsuranceType>
     <InsuranceThresholdType />
     <InsuranceThresholdAmt>0</InsuranceThresholdAmt>
     <bUseDbMailClassValue>false</bUseDbMailClassValue>
@@ -56,7 +56,7 @@
     <bTestPrint>false</bTestPrint>
     <bClearAddress>true</bClearAddress>
     <bAutoPrintCustoms>true</bAutoPrintCustoms>
-    <bSignCustoms>false</bSignCustoms>
+    <bSignCustoms>true</bSignCustoms>
     <bClearRefId>true</bClearRefId>
     <bClearPackageDimensions>true</bClearPackageDimensions>
     <bCloseDAZzle>false</bCloseDAZzle>
@@ -132,33 +132,33 @@
     <HttpProxyPort />
     <HttpProxyUser />
     <HttpProxyPassword />
-    <SourceDSN />
-    <OrderLookupDataSourceType />
+    <SourceDSN>Address Book Access</SourceDSN>
+    <OrderLookupDataSourceType>Database or CSV/Text File</OrderLookupDataSourceType>
     <BatchPrintDSN />
     <BatchPrintDataSourceType />
-    <PostBackDSN />
+    <PostBackDSN>Address Book Access</PostBackDSN>
     <PostBackDataSourceType />
     <CustomsDSN />
     <MailClass>Priority</MailClass>
     <LastDomesticMailClass>Priority</LastDomesticMailClass>
     <LastDomesticTracking>DeliveryConfirmation</LastDomesticTracking>
-    <LastIntlMailClass />
-    <LastIntlTracking />
+    <LastIntlMailClass>FirstPackageIntlService</LastIntlMailClass>
+    <LastIntlTracking>DeliveryConfirmationIntl</LastIntlTracking>
     <LastConsolidatorMailClass />
     <LastInternationalConsolidatorMailClass />
-    <LastError />
+    <LastError>SELECT DISTINCT [Name],[Company],[Title],[Department],[Street],[City],[State],[Zip],[Country],[Email],[Phone] FROM [AddressBook] WHERE [Name] LIKE'%Katia El'moukhtafi%'</LastError>
     <Pounds>0</Pounds>
-    <Ounces>2080</Ounces>
+    <Ounces>160</Ounces>
     <bShippingListVisible>false</bShippingListVisible>
     <MailpieceHeight />
     <MailpieceLength />
     <MailpieceThickness />
-    <bStealthPostage>false</bStealthPostage>
+    <bStealthPostage>true</bStealthPostage>
     <bStealthPostageBatchPrint>true</bStealthPostageBatchPrint>
     <bSignatureWaiver>false</bSignatureWaiver>
     <bSignatureRequired>false</bSignatureRequired>
     <bDeliverBy1030am>false</bDeliverBy1030am>
-    <bSaturdayDelivery>true</bSaturdayDelivery>
+    <bSaturdayDelivery>false</bSaturdayDelivery>
     <bSundayDelivery>false</bSundayDelivery>
     <bHolidayDelivery>false</bHolidayDelivery>
     <bNonMachinable>false</bNonMachinable>
@@ -167,7 +167,7 @@
     <bRegisteredMail>false</bRegisteredMail>
     <bHoldForPickup>false</bHoldForPickup>
     <bCertifiedMail>false</bCertifiedMail>
-    <bReturnReceipt>false</bReturnReceipt>
+    <bReturnReceipt>true</bReturnReceipt>
     <bRestrictedDelivery>false</bRestrictedDelivery>
     <bAdultSigRequired>false</bAdultSigRequired>
     <bAdultSigRestrictedDelivery>false</bAdultSigRestrictedDelivery>
@@ -277,12 +277,12 @@
     <ElsAccountType />
     <ElsPartnerCustomerID />
     <ElsCostCenter />
-    <ElsPrinterName></ElsPrinterName>
-    <ElsSheetPrinterName>Microsoft XPS Document Writer (Copy 1)</ElsSheetPrinterName>
+    <ElsPrinterName>\\disney\125Years</ElsPrinterName>
+    <ElsSheetPrinterName>\\disney\TeaLover</ElsSheetPrinterName>
     <ElsImageFormat>PNG</ElsImageFormat>
     <ElsLabelSize>4x6</ElsLabelSize>
     <ElsImageRotation>None</ElsImageRotation>
-    <ElsFromName>EDI Desk</ElsFromName>
+    <ElsFromName>Compliance Shipping</ElsFromName>
     <ElsFromCompany>Tervis</ElsFromCompany>
     <ElsReturnAddress1>201 Triple Diamond Blvd.</ElsReturnAddress1>
     <ElsReturnAddress2 />
@@ -291,7 +291,7 @@
     <ElsFromCity>N. Venice</ElsFromCity>
     <ElsFromState>FL</ElsFromState>
     <ElsFromPostalCode>34275</ElsFromPostalCode>
-    <ElsFromZIP4 />
+    <ElsFromZIP4>3634</ElsFromZIP4>
     <ElsFromPhone>9419662114</ElsFromPhone>
     <ElsFromEMail>complianceshipping@tervis.com</ElsFromEMail>
     <ElsPOZipCode>34275</ElsPOZipCode>
@@ -302,16 +302,16 @@
     <ElsReturnLabelAccountType />
     <ElsReturnLabelCustomerPartnerID />
     <ElsReturnLabelCostCenter />
-    <ElsReturnLabelFromName>EDI Desk</ElsReturnLabelFromName>
+    <ElsReturnLabelFromName>Compliance Shipping</ElsReturnLabelFromName>
     <ElsReturnLabelFromCompany>Tervis</ElsReturnLabelFromCompany>
     <ElsReturnLabelReturnAddress1>201 Triple Diamond Blvd.</ElsReturnLabelReturnAddress1>
     <ElsReturnLabelReturnAddress2 />
     <ElsReturnLabelReturnAddress3 />
     <ElsReturnLabelReturnAddress4 />
     <ElsReturnLabelFromCity>N. Venice</ElsReturnLabelFromCity>
-    <ElsReturnLabelFromState>LA</ElsReturnLabelFromState>
+    <ElsReturnLabelFromState>FL</ElsReturnLabelFromState>
     <ElsReturnLabelFromPostalCode>34275</ElsReturnLabelFromPostalCode>
-    <ElsReturnLabelFromZIP4 />
+    <ElsReturnLabelFromZIP4>3634</ElsReturnLabelFromZIP4>
     <ElsReturnLabelFromPhone>9419662114</ElsReturnLabelFromPhone>
     <ElsReturnLabelFromEMail>complianceshipping@tervis.com</ElsReturnLabelFromEMail>
     <ElsReturnLabelPOZipCode />
@@ -360,7 +360,7 @@
     <bShowConsolidator_BOUNDPRINTEDMATTER>true</bShowConsolidator_BOUNDPRINTEDMATTER>
     <bShowConsolidator_PARCELSELECT>true</bShowConsolidator_PARCELSELECT>
     <bWalmartInitialConfigDone>false</bWalmartInitialConfigDone>
-    <SCANformPrinter />
+    <SCANformPrinter>\\disney\Rangers</SCANformPrinter>
     <bShowConsolidator_Intl1>false</bShowConsolidator_Intl1>
     <bShowConsolidator_Intl2>false</bShowConsolidator_Intl2>
     <bShowConsolidator_Intl3>false</bShowConsolidator_Intl3>

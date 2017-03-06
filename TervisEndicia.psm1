@@ -10,8 +10,20 @@
     
     $EndiciaAccountChallengeAnswer = Get-PasswordstateCredential -PasswordID 4088
     $ChallengeAnswer = $EndiciaAccountChallengeAnswer.GetNetworkCredential().password
+    Reset-SuspendedAccountRequestXML -RequesterID lcon -RequestID $RequestID -AccountID $EndiciaAccount.UserName -ChallengeAnswer $ChallengeAnswer -NewPassPhrase $NewPassPhrase
+}
 
-    $Response = Reset-SuspendedAccountRequestXML -RequesterID lcon -RequestID $RequestID -AccountID $EndiciaAccount.UserName -ChallengeAnswer $ChallengeAnswer -NewPassPhrase $NewPassPhrase
-    $SuspendedAccountRequestXML = [xml]$Response.Content
-    $SuspendedAccountRequestXML.Envelope.Body.ResetSuspendedAccountResponse.ResetSuspendedAccountRequestResponse
+function New-Settings1xmlFile {
+    param (
+        [Parameter(Mandatory)]$ComputerName,
+        [Parameter(Mandatory)]$UserName
+    )
+    $EndiciaAccount = Get-PasswordstateCredential -PasswordID 3620
+    $ElsAccountNumber = $EndiciaAccount.UserName
+    $ElsPassPhrase = $EndiciaAccount.GetNetworkCredential().password
+    $ElsReturnLabelAccountNumber = $EndiciaAccount.UserName
+    $ElsReturnLabelPassPhrase = $EndiciaAccount.GetNetworkCredential().password
+    
+    Invoke-ProcessTemplateFile -TemplateFile $PSScriptRoot\Settings1.xml.pstemplate |
+    Out-File "\\$ComputerName\C$\Users\$UserName\AppData\Roaming\Endicia\Professional\Profiles\Profile 001\Settings1.xml"
 }

@@ -1,0 +1,448 @@
+<?xml version="1.0" standalone="yes"?>
+<GalaxyProfile xmlns="http://tempuri.org/GlobalSettings.xsd">
+  <Fields>
+    <ProfileName>Profile 1</ProfileName>
+    <ProfileSafeName>Profile 001</ProfileSafeName>
+    <bAllCaps>false</bAllCaps>
+    <bCloseDatabase>false</bCloseDatabase>
+    <bSourceDbDiagX>false</bSourceDbDiagX>
+    <bPostBackDbDiagX>false</bPostBackDbDiagX>
+    <bPromptForMultipleRecords>true</bPromptForMultipleRecords>
+    <bRefreshBatchPrintList>true</bRefreshBatchPrintList>
+    <bMonitorClipboard>false</bMonitorClipboard>
+    <bPrintWhenF2F8keysPressed>true</bPrintWhenF2F8keysPressed>
+    <bPrintLabelPlusReply>false</bPrintLabelPlusReply>
+    <bDisableInsuranceValueZero>true</bDisableInsuranceValueZero>
+    <bResetInsuranceToNone>false</bResetInsuranceToNone>
+    <bResetCod>true</bResetCod>
+    <bResetAllOptServices>false</bResetAllOptServices>
+    <bInsuranceThreshold>false</bInsuranceThreshold>
+    <bUseInsurance>false</bUseInsurance>
+    <InsuranceType>Endicia</InsuranceType>
+    <InsuranceThresholdType />
+    <InsuranceThresholdAmt>0</InsuranceThresholdAmt>
+    <bUseDbMailClassValue>false</bUseDbMailClassValue>
+    <bUseDbTrackingValue>false</bUseDbTrackingValue>
+    <bSwitchPriorityToFirst>false</bSwitchPriorityToFirst>
+    <bSwitchFirstToPriority>false</bSwitchFirstToPriority>
+    <bSwitchMediaToFirst>false</bSwitchMediaToFirst>
+    <bSwitchFirstToMedia>false</bSwitchFirstToMedia>
+    <bDisplayDiscountRate>true</bDisplayDiscountRate>
+    <bDcWithPriority>true</bDcWithPriority>
+    <bDcOffWithOthers>true</bDcOffWithOthers>
+    <bScaleThreadStarted>false</bScaleThreadStarted>
+    <bKeepCommPortOpen>true</bKeepCommPortOpen>
+    <bScaleDiagnostic>false</bScaleDiagnostic>
+    <bStopScale>false</bStopScale>
+    <bAllowPrintZeroWeight>false</bAllowPrintZeroWeight>
+    <ScaleName>None</ScaleName>
+    <ScalePort />
+    <ScaleFlowControl />
+    <ScaleBaudRate />
+    <bShowUsbScaleBrand>false</bShowUsbScaleBrand>
+    <bWaitForScaleStable>false</bWaitForScaleStable>
+    <bScaleStable>true</bScaleStable>
+    <bShowDsnName>false</bShowDsnName>
+    <bClientRules>false</bClientRules>
+    <bAfterFivePMWarning>true</bAfterFivePMWarning>
+    <PostmarkDateWarningHour>17</PostmarkDateWarningHour>
+    <bPrintWithoutRefId>false</bPrintWithoutRefId>
+    <bMakeRefIdsEven>false</bMakeRefIdsEven>
+    <bTrimRefId>false</bTrimRefId>
+    <OriginZip />
+    <bZip4Warnings>true</bZip4Warnings>
+    <bRefIdMissingWarning>true</bRefIdMissingWarning>
+    <bRefIdChangedWarning>true</bRefIdChangedWarning>
+    <bTestPrint>false</bTestPrint>
+    <bClearAddress>true</bClearAddress>
+    <bAutoPrintCustoms>true</bAutoPrintCustoms>
+    <bSignCustoms>false</bSignCustoms>
+    <bClearRefId>true</bClearRefId>
+    <bClearPackageDimensions>true</bClearPackageDimensions>
+    <bCloseDAZzle>false</bCloseDAZzle>
+    <bReadPause>true</bReadPause>
+    <bShowPrintDialog>false</bShowPrintDialog>
+    <bPrintCustomsForm>true</bPrintCustomsForm>
+    <bPrintCustomsFormApo>true</bPrintCustomsFormApo>
+    <bUse5orMoreCustomsLineLayoutForLessThan5lineMultiPageLabels>false</bUse5orMoreCustomsLineLayoutForLessThan5lineMultiPageLabels>
+    <CustomsForm />
+    <CustomsSignerName />
+    <DefaultLayout />
+    <NoneLayout />
+    <ReplyLayout />
+    <FirstClassLayout />
+    <FirstClassEnvLayout />
+    <PriorityLayout />
+    <ParcelPostLayout />
+    <MediaMailLayout />
+    <BoundPrintedLayout />
+    <LibraryMailLayout />
+    <ExpressLayout />
+    <HfpuLayout />
+    <HfpuExpressMailLayout />
+    <OpenAndDistributeLayout />
+    <ApoFpoLayout />
+    <ApoFpoFiveOrLessCustomsLayout />
+    <ApoFpoMoreThanFiveCustomsLayout />
+    <CriticalMailLetterLayout />
+    <CriticalMailFlatLayout />
+    <IntlDefaultLayout />
+    <IntlGXGLayout />
+    <IntlGEMLayout />
+    <IntlGPMsmallLayout />
+    <IntlGPMLayout />
+    <IntlAirLetterLayout />
+    <IntlLetterLayout />
+    <IntlAirParcelLayout />
+    <IntlParcelLayout />
+    <IntlMBagLayout />
+    <FirstClassIntlLayout />
+    <FirstClassIntlNoCustomsLayout />
+    <PriorityMailIntlLayout />
+    <PriorityMailIntlFlatRateEnvelopeLayout />
+    <PMIFREnvFCMI400Layout />
+    <ExpressMailIntlLayout />
+    <ExpressMailIntlLessThanFiveCustomsLayout />
+    <IntlFiveOrLessCustomsLayout />
+    <IntlMoreThanFiveCustomsLayout />
+    <bLayoutsTransitionedToDAZzle_11_5>false</bLayoutsTransitionedToDAZzle_11_5>
+    <StaticDescription />
+    <StaticRubberStamp1 />
+    <StaticRubberStamp2 />
+    <StaticRubberStamp3 />
+    <StaticRubberStamp4 />
+    <StaticRubberStamp5 />
+    <PostmarkDateFormat />
+    <TransactionDateFormat />
+    <bMomReadDcSc>false</bMomReadDcSc>
+    <SwitchFirstClassToMedia>FirstClassPackage</SwitchFirstClassToMedia>
+    <SwitchMediaToFirstClass>FirstClassPackage</SwitchMediaToFirstClass>
+    <SwitchFirstClassToPriority>FirstClassPackage</SwitchFirstClassToPriority>
+    <SwitchPriorityToFirstClass>FirstClassPackage</SwitchPriorityToFirstClass>
+    <OrderLookupShipmentDataPlugin>Database or CSV/Text File</OrderLookupShipmentDataPlugin>
+    <BatchPrintShipmentDataPlugin>Database or CSV/Text File</BatchPrintShipmentDataPlugin>
+    <PostBackShipmentDataPlugin>Database or CSV/Text File</PostBackShipmentDataPlugin>
+    <OrderLookupPluginDataConnectionName />
+    <BatchPrintPluginDataConnectionName />
+    <PostBackPluginDataConnectionName />
+    <OrderLookupPluginDataConnectionID />
+    <BatchPrintPluginDataConnectionID />
+    <PostBackPluginDataConnectionID />
+    <HttpProxy />
+    <HttpProxyPort />
+    <HttpProxyUser />
+    <HttpProxyPassword />
+    <SourceDSN />
+    <OrderLookupDataSourceType />
+    <BatchPrintDSN />
+    <BatchPrintDataSourceType />
+    <PostBackDSN />
+    <PostBackDataSourceType />
+    <CustomsDSN />
+    <MailClass>Priority</MailClass>
+    <LastDomesticMailClass>Priority</LastDomesticMailClass>
+    <LastDomesticTracking>DeliveryConfirmation</LastDomesticTracking>
+    <LastIntlMailClass />
+    <LastIntlTracking />
+    <LastConsolidatorMailClass />
+    <LastInternationalConsolidatorMailClass />
+    <LastError />
+    <Pounds>0</Pounds>
+    <Ounces>2080</Ounces>
+    <bShippingListVisible>false</bShippingListVisible>
+    <MailpieceHeight />
+    <MailpieceLength />
+    <MailpieceThickness />
+    <bStealthPostage>false</bStealthPostage>
+    <bStealthPostageBatchPrint>true</bStealthPostageBatchPrint>
+    <bSignatureWaiver>false</bSignatureWaiver>
+    <bSignatureRequired>false</bSignatureRequired>
+    <bDeliverBy1030am>false</bDeliverBy1030am>
+    <bSaturdayDelivery>true</bSaturdayDelivery>
+    <bSundayDelivery>false</bSundayDelivery>
+    <bHolidayDelivery>false</bHolidayDelivery>
+    <bNonMachinable>false</bNonMachinable>
+    <bOversizeRate>false</bOversizeRate>
+    <bBalloonRate>false</bBalloonRate>
+    <bRegisteredMail>false</bRegisteredMail>
+    <bHoldForPickup>false</bHoldForPickup>
+    <bCertifiedMail>false</bCertifiedMail>
+    <bReturnReceipt>false</bReturnReceipt>
+    <bRestrictedDelivery>false</bRestrictedDelivery>
+    <bAdultSigRequired>false</bAdultSigRequired>
+    <bAdultSigRestrictedDelivery>false</bAdultSigRestrictedDelivery>
+    <Tracking>DeliveryConfirmation</Tracking>
+    <InsuranceAmount />
+    <bCOD>false</bCOD>
+    <CodAmount />
+    <bCODIncludeShipping>false</bCODIncludeShipping>
+    <bCODPrintEndorsement>false</bCODPrintEndorsement>
+    <CODEndorsement />
+    <bCODPrintAmount>false</bCODPrintAmount>
+    <bCODPrint4Pages>true</bCODPrint4Pages>
+    <bCODRemitPME>false</bCODRemitPME>
+    <COD_USPSCA />
+    <bCODUseReturnAddress>false</bCODUseReturnAddress>
+    <CODReturnName />
+    <CODReturnCompany />
+    <CODReturnAddress1 />
+    <CODReturnAddress2 />
+    <CODReturnCity />
+    <CODReturnState />
+    <CODReturnZIP />
+    <bOpenAndDistribute>false</bOpenAndDistribute>
+    <OpenAndDistributeMailClassEnclosed />
+    <OpenAndDistributeContainer />
+    <OpenAndDistributePromptWhenPrinting>true</OpenAndDistributePromptWhenPrinting>
+    <TitleBarText />
+    <bSwitchToDefaultMailClass>false</bSwitchToDefaultMailClass>
+    <DefaultMailClass>FirstClassLetter</DefaultMailClass>
+    <bShowBoundPrintedFlat>false</bShowBoundPrintedFlat>
+    <bShowBoundPrintedParcel>false</bShowBoundPrintedParcel>
+    <bShowExpressMail>true</bShowExpressMail>
+    <bShowExpressMailFlatRateEnvelope>true</bShowExpressMailFlatRateEnvelope>
+    <bShowExpressMailLegalFlatRateEnvelope>false</bShowExpressMailLegalFlatRateEnvelope>
+    <bShowExpressMailGiftCardFlatRateEnvelope>false</bShowExpressMailGiftCardFlatRateEnvelope>
+    <bShowExpressMailWindowFlatRateEnvelope>false</bShowExpressMailWindowFlatRateEnvelope>
+    <bShowExpressMailCardboardFlatRateEnvelope>false</bShowExpressMailCardboardFlatRateEnvelope>
+    <bShowExpressMailFlatRateBox>true</bShowExpressMailFlatRateBox>
+    <bShowExpressMailIntl>true</bShowExpressMailIntl>
+    <bShowExpressMailIntlFlatRateEnvelope>true</bShowExpressMailIntlFlatRateEnvelope>
+    <bShowExpressMailIntlLegalFlatRateEnvelope>false</bShowExpressMailIntlLegalFlatRateEnvelope>
+    <bShowExpressMailIntlFlatRateBox>true</bShowExpressMailIntlFlatRateBox>
+    <bShowFirstClassFlat>false</bShowFirstClassFlat>
+    <bShowFirstClassLetter>false</bShowFirstClassLetter>
+    <bShowFirstClassPackage>true</bShowFirstClassPackage>
+    <bShowFirstClassPackageRetail>false</bShowFirstClassPackageRetail>
+    <bShowFirstClassMailLetterIntl>true</bShowFirstClassMailLetterIntl>
+    <bShowFirstClassMailFlatIntl>true</bShowFirstClassMailFlatIntl>
+    <bShowFirstClassMailIntl>true</bShowFirstClassMailIntl>
+    <bShowLibraryMail>false</bShowLibraryMail>
+    <bShowMBagIntl>false</bShowMBagIntl>
+    <bShowGXG>false</bShowGXG>
+    <bShowMediaMail>true</bShowMediaMail>
+    <bShowNoMailClass>false</bShowNoMailClass>
+    <bShowNoMailClassIntl>false</bShowNoMailClassIntl>
+    <bShowParcelPost>true</bShowParcelPost>
+    <bShowParcelSelect>true</bShowParcelSelect>
+    <bShowPriorityMail>true</bShowPriorityMail>
+    <bShowPriorityMailFlatRateBox>true</bShowPriorityMailFlatRateBox>
+    <bShowPriorityMailSmallFlatRateBox>true</bShowPriorityMailSmallFlatRateBox>
+    <bShowPriorityMailIntlSmallFlatRateBox>true</bShowPriorityMailIntlSmallFlatRateBox>
+    <bShowPriorityMailLargeFlatRateBox>true</bShowPriorityMailLargeFlatRateBox>
+    <bShowPriorityMailLargeFlatRateBoardGameBox>false</bShowPriorityMailLargeFlatRateBoardGameBox>
+    <bShowPriorityMailIntlLargeFlatRateBox>true</bShowPriorityMailIntlLargeFlatRateBox>
+    <bShowPriorityMailIntlLargeFlatRateBoardGameBox>false</bShowPriorityMailIntlLargeFlatRateBoardGameBox>
+    <bShowPriorityMailFlatRateEnvelope>true</bShowPriorityMailFlatRateEnvelope>
+    <bShowPriorityMailLegalFlatRateEnvelope>false</bShowPriorityMailLegalFlatRateEnvelope>
+    <bShowPriorityMailFlatRatePaddedEnvelope>false</bShowPriorityMailFlatRatePaddedEnvelope>
+    <bShowPriorityMailGiftCardFlatRateEnvelope>false</bShowPriorityMailGiftCardFlatRateEnvelope>
+    <bShowPriorityMailWindowFlatRateEnvelope>false</bShowPriorityMailWindowFlatRateEnvelope>
+    <bShowPriorityMailCardboardFlatRateEnvelope>false</bShowPriorityMailCardboardFlatRateEnvelope>
+    <bShowPriorityMailFlatRateRegBoxA>false</bShowPriorityMailFlatRateRegBoxA>
+    <bShowPriorityMailFlatRateRegBoxB>false</bShowPriorityMailFlatRateRegBoxB>
+    <bShowCriticalMailLetter>false</bShowCriticalMailLetter>
+    <bShowCriticalMailFlat>false</bShowCriticalMailFlat>
+    <bShowPriorityMailIntl>true</bShowPriorityMailIntl>
+    <bShowPriorityMailIntlFlatRateBox>true</bShowPriorityMailIntlFlatRateBox>
+    <bShowPriorityMailIntlFlatRateEnvelope>true</bShowPriorityMailIntlFlatRateEnvelope>
+    <bShowPriorityMailIntlLegalFlatRateEnvelope>false</bShowPriorityMailIntlLegalFlatRateEnvelope>
+    <bShowPriorityMailIntlPaddedFlatRateEnvelope>false</bShowPriorityMailIntlPaddedFlatRateEnvelope>
+    <bShowPriorityMailIntlFlatRateDvdBox>false</bShowPriorityMailIntlFlatRateDvdBox>
+    <bShowPriorityMailIntlLargeVideoBox>false</bShowPriorityMailIntlLargeVideoBox>
+    <bShowPriorityMailIntlRegionalRateBoxA>false</bShowPriorityMailIntlRegionalRateBoxA>
+    <bShowPriorityMailIntlRegionalRateBoxB>false</bShowPriorityMailIntlRegionalRateBoxB>
+    <PostBackWidth />
+    <PostBackHeight />
+    <PostBackSort />
+    <bShippingListFormOpen>false</bShippingListFormOpen>
+    <MainTabIndex>0</MainTabIndex>
+    <GroupCodeValue />
+    <RubberStamp10Value />
+    <RubberStamp9Value />
+    <RubberStamp8Value />
+    <RubberStamp7Value />
+    <RubberStamp6Value />
+    <RubberStamp5Value />
+    <RubberStamp4Value />
+    <RubberStamp3Value />
+    <RubberStamp2Value />
+    <RubberStamp1Value />
+    <DescriptionValue />
+    <DAZzleVistaCompliant />
+    <ElsAccountNumber>$ElsAccountNumber</ElsAccountNumber>
+    <ElsPassPhrase>$ElsPassPhrase</ElsPassPhrase>
+    <ElsUserLoginEmail />
+    <ElsUserLoginPassword />
+    <ElsAccountType />
+    <ElsPartnerCustomerID />
+    <ElsCostCenter />
+    <ElsPrinterName></ElsPrinterName>
+    <ElsSheetPrinterName>Microsoft XPS Document Writer (Copy 1)</ElsSheetPrinterName>
+    <ElsImageFormat>PNG</ElsImageFormat>
+    <ElsLabelSize>4x6</ElsLabelSize>
+    <ElsImageRotation>None</ElsImageRotation>
+    <ElsFromName>EDI Desk</ElsFromName>
+    <ElsFromCompany>Tervis</ElsFromCompany>
+    <ElsReturnAddress1>201 Triple Diamond Blvd.</ElsReturnAddress1>
+    <ElsReturnAddress2 />
+    <ElsReturnAddress3 />
+    <ElsReturnAddress4 />
+    <ElsFromCity>N. Venice</ElsFromCity>
+    <ElsFromState>FL</ElsFromState>
+    <ElsFromPostalCode>34275</ElsFromPostalCode>
+    <ElsFromZIP4 />
+    <ElsFromPhone>9419662114</ElsFromPhone>
+    <ElsFromEMail></ElsFromEMail>
+    <ElsPOZipCode>34275</ElsPOZipCode>
+    <ElsReturnLabelAccountNumber>$ElsReturnLabelAccountNumber</ElsReturnLabelAccountNumber>
+    <ElsReturnLabelPassPhrase>$ElsReturnLabelPassPhrase</ElsReturnLabelPassPhrase>
+    <ElsReturnLabelUserLoginEmail />
+    <ElsReturnLabelUserLoginPassword />
+    <ElsReturnLabelAccountType />
+    <ElsReturnLabelCustomerPartnerID />
+    <ElsReturnLabelCostCenter />
+    <ElsReturnLabelFromName>EDI Desk</ElsReturnLabelFromName>
+    <ElsReturnLabelFromCompany>Tervis</ElsReturnLabelFromCompany>
+    <ElsReturnLabelReturnAddress1>201 Triple Diamond Blvd.</ElsReturnLabelReturnAddress1>
+    <ElsReturnLabelReturnAddress2 />
+    <ElsReturnLabelReturnAddress3 />
+    <ElsReturnLabelReturnAddress4 />
+    <ElsReturnLabelFromCity>N. Venice</ElsReturnLabelFromCity>
+    <ElsReturnLabelFromState>LA</ElsReturnLabelFromState>
+    <ElsReturnLabelFromPostalCode>34275</ElsReturnLabelFromPostalCode>
+    <ElsReturnLabelFromZIP4 />
+    <ElsReturnLabelFromPhone>9419662114</ElsReturnLabelFromPhone>
+    <ElsReturnLabelFromEMail></ElsReturnLabelFromEMail>
+    <ElsReturnLabelPOZipCode />
+    <ElsPrintAllCP72onSheetPrinter>false</ElsPrintAllCP72onSheetPrinter>
+    <ElsUserEmailPasswordLogin>false</ElsUserEmailPasswordLogin>
+    <ElsReturnLabelUserEmailPasswordLogin>false</ElsReturnLabelUserEmailPasswordLogin>
+    <bLimitBatchPrintSize>true</bLimitBatchPrintSize>
+    <AutoReplyLabelMailClass>Empty</AutoReplyLabelMailClass>
+    <AutoReplyLabelWeightTenths>0</AutoReplyLabelWeightTenths>
+    <AutoReplyLabelTracking>Empty</AutoReplyLabelTracking>
+    <AutoReplyLabelUseInsurance>false</AutoReplyLabelUseInsurance>
+    <AutoReplyLabelInsurance />
+    <AutoReplyLabelValue />
+    <MultipleLabelsDefaultToReturn>false</MultipleLabelsDefaultToReturn>
+    <bUseParameterizedQuery>false</bUseParameterizedQuery>
+    <bLockPreferences>false</bLockPreferences>
+    <bSwitchFirstToLargeEnvelope>false</bSwitchFirstToLargeEnvelope>
+    <SwitchFirstClassToLrgEnv>FirstClassFlat</SwitchFirstClassToLrgEnv>
+    <bIncludePartnerID>false</bIncludePartnerID>
+    <PartnerId />
+    <GxgContainerType />
+    <GxgTaxID />
+    <bShowExpressMailFlatRatePaddedEnvelope>false</bShowExpressMailFlatRatePaddedEnvelope>
+    <bShowExpressMailIntlFlatRatePaddedEnvelope>false</bShowExpressMailIntlFlatRatePaddedEnvelope>
+    <bConsolidatorLabelMode>false</bConsolidatorLabelMode>
+    <ConsolidatorLabelLayout />
+    <ConsolidatorLabelIntlSmallLayout />
+    <ConsolidatorLabelIntlLargeLayout />
+    <bShowConsolidator_DHLGMSMFIRSTCLASSPARCELS>false</bShowConsolidator_DHLGMSMFIRSTCLASSPARCELS>
+    <bShowConsolidator_DHLGMSMFIRSTCLASSPRODUCT>false</bShowConsolidator_DHLGMSMFIRSTCLASSPRODUCT>
+    <bShowConsolidator_DHLGMSMPRIORITYMAIL>false</bShowConsolidator_DHLGMSMPRIORITYMAIL>
+    <bShowConsolidator_DHLGMSMPARCELPLUSGROUND>false</bShowConsolidator_DHLGMSMPARCELPLUSGROUND>
+    <bShowConsolidator_DHLGMSMPARCELSGROUND>false</bShowConsolidator_DHLGMSMPARCELSGROUND>
+    <bShowConsolidator_DHLGMSMPARCELSGROUND_Irregular>false</bShowConsolidator_DHLGMSMPARCELSGROUND_Irregular>
+    <bShowConsolidator_DHLGMSMPARCELSEXPEDITED>false</bShowConsolidator_DHLGMSMPARCELSEXPEDITED>
+    <bShowConsolidator_DHLGMSMPARCELSEXPEDITED_Irregular>false</bShowConsolidator_DHLGMSMPARCELSEXPEDITED_Irregular>
+    <bShowConsolidator_DHLGMSMMEDIAMAILGROUND>false</bShowConsolidator_DHLGMSMMEDIAMAILGROUND>
+    <bShowConsolidator_DHLGMSMCATALOGBPMGROUND>false</bShowConsolidator_DHLGMSMCATALOGBPMGROUND>
+    <bShowConsolidator_DHLGMSMCATALOGBPMEXPEDITED>false</bShowConsolidator_DHLGMSMCATALOGBPMEXPEDITED>
+    <bShowConsolidator_DHLGMSMBPMGROUND>false</bShowConsolidator_DHLGMSMBPMGROUND>
+    <bShowConsolidator_DHLGMSMBPMEXPEDITED>false</bShowConsolidator_DHLGMSMBPMEXPEDITED>
+    <bShowConsolidator_DHLGMSMPARCELPLUSEXPEDITED>false</bShowConsolidator_DHLGMSMPARCELPLUSEXPEDITED>
+    <bShowConsolidator_STANDARDMAILMARKETING>true</bShowConsolidator_STANDARDMAILMARKETING>
+    <bShowConsolidator_LIBRARYMAIL>true</bShowConsolidator_LIBRARYMAIL>
+    <bShowConsolidator_MEDIAMAIL>true</bShowConsolidator_MEDIAMAIL>
+    <bShowConsolidator_BOUNDPRINTEDMATTER>true</bShowConsolidator_BOUNDPRINTEDMATTER>
+    <bShowConsolidator_PARCELSELECT>true</bShowConsolidator_PARCELSELECT>
+    <bWalmartInitialConfigDone>false</bWalmartInitialConfigDone>
+    <SCANformPrinter />
+    <bShowConsolidator_Intl1>false</bShowConsolidator_Intl1>
+    <bShowConsolidator_Intl2>false</bShowConsolidator_Intl2>
+    <bShowConsolidator_Intl3>false</bShowConsolidator_Intl3>
+    <bShowConsolidator_Intl4>false</bShowConsolidator_Intl4>
+    <bShowConsolidator_Intl5>false</bShowConsolidator_Intl5>
+    <bShowConsolidator_Intl6>false</bShowConsolidator_Intl6>
+    <bShowConsolidator_Intl7>false</bShowConsolidator_Intl7>
+    <bShowConsolidator_Intl8>false</bShowConsolidator_Intl8>
+    <bShowConsolidator_Intl9>false</bShowConsolidator_Intl9>
+    <bShowConsolidator_Intl10>false</bShowConsolidator_Intl10>
+    <bShowConsolidator_Intl11>false</bShowConsolidator_Intl11>
+    <bShowConsolidator_Intl12>false</bShowConsolidator_Intl12>
+    <bShowConsolidator_Intl13>false</bShowConsolidator_Intl13>
+    <bShowConsolidator_Intl14>false</bShowConsolidator_Intl14>
+    <bShowConsolidator_Intl15>false</bShowConsolidator_Intl15>
+    <bShowConsolidator_Intl16>false</bShowConsolidator_Intl16>
+    <bShowConsolidator_Intl>false</bShowConsolidator_Intl>
+    <bShowConsolidator_IPA>false</bShowConsolidator_IPA>
+    <bShowConsolidator_ISAL>false</bShowConsolidator_ISAL>
+    <bShowConsolidator_FCMIPARCEL>false</bShowConsolidator_FCMIPARCEL>
+    <bShowConsolidator_FCMI>false</bShowConsolidator_FCMI>
+    <bShowConsolidator_FCMILETTER>false</bShowConsolidator_FCMILETTER>
+    <bShowConsolidator_FCMIFLAT>false</bShowConsolidator_FCMIFLAT>
+    <bShowConsolidator_PMIPARCEL>false</bShowConsolidator_PMIPARCEL>
+    <bShowConsolidator_EMIPARCEL>false</bShowConsolidator_EMIPARCEL>
+    <MultiItemOrderFormWidth>400</MultiItemOrderFormWidth>
+    <MultiItemOrderFormHeight>400</MultiItemOrderFormHeight>
+    <ServerEnvironment>Production</ServerEnvironment>
+    <bShowConsolidator_DHLGMSMMARKETINGPARCELGROUND>false</bShowConsolidator_DHLGMSMMARKETINGPARCELGROUND>
+    <bShowConsolidator_DHLGMSMMARKETINGPARCELEXPEDITED>false</bShowConsolidator_DHLGMSMMARKETINGPARCELEXPEDITED>
+    <UseScanBasedReturnService>false</UseScanBasedReturnService>
+    <ScanBasedReturnServiceAutoOn>false</ScanBasedReturnServiceAutoOn>
+    <ReturnLabelsUseAlternateAddress>false</ReturnLabelsUseAlternateAddress>
+    <DAZzleReturnLabelAddress />
+    <DAZzleReturnLabelCity />
+    <DAZzleReturnLabelState />
+    <DAZzleReturnLabelZipCode />
+    <SpecialContentType />
+    <bShowMetroPost>false</bShowMetroPost>
+    <bSpecialContents>false</bSpecialContents>
+    <bShowConsolidator_CommercialePacket>false</bShowConsolidator_CommercialePacket>
+    <bShowConsolidator_DHLGM_BUSINESSPRIORITY>false</bShowConsolidator_DHLGM_BUSINESSPRIORITY>
+    <bShowConsolidator_DHLGM_BUSINESSSTANDARD>false</bShowConsolidator_DHLGM_BUSINESSSTANDARD>
+    <bShowConsolidator_DHLGM_PACKETPRIORITY>false</bShowConsolidator_DHLGM_PACKETPRIORITY>
+    <bShowConsolidator_DHLGM_PACKETSTANDARD>false</bShowConsolidator_DHLGM_PACKETSTANDARD>
+    <bShowConsolidator_DHLGM_PACKETIPA>false</bShowConsolidator_DHLGM_PACKETIPA>
+    <bShowConsolidator_DHLGM_PACKETISAL>false</bShowConsolidator_DHLGM_PACKETISAL>
+    <bShowConsolidator_DHLGM_PACKETPLUS>false</bShowConsolidator_DHLGM_PACKETPLUS>
+    <bShowConsolidator_DHLGM_PARCELPRIORITY>false</bShowConsolidator_DHLGM_PARCELPRIORITY>
+    <bShowConsolidator_DHLGM_PARCELDIRECTEXPRESSDDU>false</bShowConsolidator_DHLGM_PARCELDIRECTEXPRESSDDU>
+    <bShowConsolidator_DHLGM_PARCELDIRECTEXPRESSDDP>false</bShowConsolidator_DHLGM_PARCELDIRECTEXPRESSDDP>
+    <bShowConsolidator_DHLGM_PARCELDIRECTPRIORITYDDU>false</bShowConsolidator_DHLGM_PARCELDIRECTPRIORITYDDU>
+    <bShowConsolidator_DHLGM_PARCELDIRECTPRIORITYDDP>false</bShowConsolidator_DHLGM_PARCELDIRECTPRIORITYDDP>
+    <bShowConsolidator_DHLGM_PARCELSTANDARD>false</bShowConsolidator_DHLGM_PARCELSTANDARD>
+    <CanadaReturnPdfOption>Prompt for location to save label</CanadaReturnPdfOption>
+    <CarrierPickupFirstName />
+    <CarrierPickupLastName />
+    <CanadaReturnPdfDirectory />
+    <AddressBookID>1</AddressBookID>
+    <CpmsAcctUserName />
+    <CpmsAcctPassword />
+    <CpmsAcctCRID />
+    <CpmsAcctPermit />
+    <CpmsAcctReturnsPermit />
+    <CpmsAcctMID />
+    <CpmsAddedIntlMailClasses>false</CpmsAddedIntlMailClasses>
+    <eVSFileStartDate>2000-01-01T00:00:00-05:00</eVSFileStartDate>
+    <bShowEGS>false</bShowEGS>
+    <HazMatDescription />
+    <HazMatPhone />
+    <bConsolidatorMixedMode>false</bConsolidatorMixedMode>
+    <bShowGPE>false</bShowGPE>
+    <bShowGPP>false</bShowGPP>
+    <bShowGPEFlat>false</bShowGPEFlat>
+    <bShowGPPFlatRateEnv>false</bShowGPPFlatRateEnv>
+    <bShowGPPFlatRateEnvLegal>false</bShowGPPFlatRateEnvLegal>
+    <bShowGPPFlatRateEnvPadded>false</bShowGPPFlatRateEnvPadded>
+    <bShowGPPSmallFlatRateBox>false</bShowGPPSmallFlatRateBox>
+    <bShowGPSSE>false</bShowGPSSE>
+    <bShowGPSSEFlat>false</bShowGPSSEFlat>
+    <bShowGPSSP>false</bShowGPSSP>
+    <bShowEGSSS>false</bShowEGSSS>
+    <bIrregularParcel>false</bIrregularParcel>
+  </Fields>
+</GalaxyProfile>

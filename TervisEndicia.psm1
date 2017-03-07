@@ -52,6 +52,19 @@ function Copy-EndiciaSettingsXMLToAllUsersOnComputer {
     }
 }
 
+function Copy-EndiciaSettingsXMLToEndiciaEndpoints {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory)]$EndiciaSettingsFile    
+    )
+
+    $EndiciaEndpoints = Get-ADGroupMember -Identity Resource_EndiciaEndpoints
+    foreach ($Computer in $EndiciaEndpoints) {
+        Write-Verbose "$($Computer.Name)"
+        Copy-EndiciaSettingsXMLToAllUsersOnComputer -ComputerName $Computer.Name -EndiciaSettingsFile $EndiciaSettingsFile
+    }
+}
+
 function Get-TervisComputersWithEndiciaInstalled {
     param (        
         [Parameter(Mandatory)]$OU
@@ -68,4 +81,19 @@ function Get-TervisComputersWithEndiciaInstalled {
             $Parameter.Name
         }
     }
+}
+
+function Update-TervisEndiciaEndpointsSecurityGroup {
+    [CmdletBinding()]
+    param (        
+        [Parameter(Mandatory)]$OU
+    )
+    
+    Write-Verbose "Getting computers with Endicia installed in $OU"
+    $EndiciaEndpoints = Get-TervisComputersWithEndiciaInstalled -OU $OU
+    foreach ($ComputerName in $EndiciaEndpoints) {
+        Write-Verbose "Adding $ComputerName to Resource_EndiciaEndpoints"
+        $ComputerObject = Get-ADComputer -Identity $ComputerName
+        Add-ADGroupMember -Identity Resource_EndiciaEndpoints -Members $ComputerObject
+    }    
 }

@@ -1,4 +1,6 @@
-﻿function Reset-TervisEndiciaSuspendedAccount {
+﻿#requires -modules TervisPowerShellJobs
+
+function Reset-TervisEndiciaSuspendedAccount {
     param (
         [Parameter(Mandatory)]$NewPassPhrase
     )
@@ -30,4 +32,40 @@ function New-Settings1xmlFile {
 
     Invoke-ProcessTemplateFile -TemplateFile $PSScriptRoot\Settings1.xml.pstemplate |
     Out-File "\\$ComputerName\C$\Users\$UserName\AppData\Roaming\Endicia\Professional\Profiles\Profile 001\Settings1.xml"
+}
+
+function Copy-EndiciaSettingsXMLToAllUsersOnComputer {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory)]$ComputerName,
+        [Parameter(Mandatory)]$EndiciaSettingsFile
+    )
+
+    $UserProfiles = Get-ChildItem -Path \\$ComputerName\C$\Users\ -Exclude Public,Default,Default.migrated
+
+    foreach ($UserProfile in $UserProfiles) {        
+        $EndiciaSettingsPath = Join-Path -Path $UserProfile.FullName -ChildPath "AppData\Roaming\Endicia\Professional\Profiles\Profile 001\"
+        if (Test-Path -Path $EndiciaSettingsPath) {
+            Write-Verbose "Copying settings to $EndiciaSettingsPath"
+            Copy-Item -Path $EndiciaSettingsFile -Destination $EndiciaSettingsFile -Force
+        }
+    }
+}
+
+function Get-TervisComputersWithEndiciaInstalled {
+    param (        
+        [Parameter(Mandatory)]$OU
+    )
+
+    $ComputersInOU = Get-ADComputer `
+        -SearchBase $OU `
+        -Filter *
+
+    Start-ParallelWork -Parameters $ComputersInOU -ScriptBlock {
+        param ($Parameter)        
+        $EndiciaInstalled = Test-Path -Path "\\$($Parameter.Name)\c$\Program Files (x86)\Endicia\Professional\Endicia Professional.exe"
+        if ($EndiciaInstalled) {
+            $Parameter.Name
+        }
+    }
 }

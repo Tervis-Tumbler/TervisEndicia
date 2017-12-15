@@ -1,4 +1,10 @@
-﻿#requires -modules TervisPowerShellJobs
+﻿#requires -modules TervisPowerShellJobs,EndiciaPowerShell
+
+function Get-TervisEndiciaAccountStatus {
+    $EndiciaAccount = Get-PasswordstateCredential -PasswordID 3620
+    $RequestID = Get-Random -Minimum 1111111111 -Maximum 9999999999    
+    Get-AccountStatus -ResponseVersion 1 -RequesterID lcon -RequestID $RequestID -AccountID $EndiciaAccount.Username -PassPhrase $EndiciaAccount.GetNetworkCredential().password
+}
 
 function Reset-TervisEndiciaSuspendedAccount {
     param (
